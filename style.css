@@ -121,4 +121,125 @@ background: linear-gradient(135deg, #00ffff, #ff00ff);
 -webkit-text-fill-color: transparent;
 letter-spacing: 2px;
 }
+.hero{
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0 8%;
+position: relative;
+}
+.hero-content{
+max-width: 1200px;
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 4rem;
+align-items: center;
+}
+.hero-text h1{
+font-size: 4.5rem;
+line-height: 1.1;
+margin-bottom: 1.5rem;
+background: linear-gradient(135deg, #00ffff 0%, #ff00ff 50%, #00ffff 100%);
+background-size: 200% auto;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: shimmer 3s linear infinite;
+}
+
+@keyframes shimmer {
+to { background-position: 200% center; }
+}
+.hero-text .subtitle {
+font-size: 1.3rem;
+color: #808080;
+margin-bottom: 2rem;
+line-height: 1.8;
+}
+.hero-text .highlight {
+color: #00ffff;
+text-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+.hero-buttons {
+display: flex;
+gap: 1.5rem;
+margin-top: 2rem;
+}
+.btn-primary {
+padding: 1rem 2.5rem;
+background: linear-gradient(135deg, #00ffff, #00b8d4);
+color: #000;
+text-decoration: none;
+border-radius: 8px;
+font-weight: 700;
+transition: all 0.3s;
+box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+border: none;
+}
+.btn-primary:hover{
+transform: translateY(-3px);
+box-shadow: 0 10px 40px rgba(0, 255, 255, 0.5);
+}
+.btn-secondary{
+padding: 1rem 2.5rem;
+background: transparent;
+color: #00ffff;
+text-decoration: none;
+border: 2px solid #00ffff;
+border-radius: 8px;
+font-weight: 700;
+transition: all 0.3s;
+}
+.btn-secondary:hover {
+background: rgba(0, 255, 255, 0.1);
+transform: translateY(-3px);
+}
+.hero-visual{
+position: relative;
+height: 500px;
+}
+.floating-card{
+position: absolute;
+background: rgba(10, 10, 10, 0.6);
+backdrop-filter: blur(20px);
+border: 1px solid rgba(0, 255, 255, 0.3);
+border-radius: 15px;
+padding: 1.5rem;
+box-shadow: 0 8px 32px rgba(0, 255, 255, 0.2);
+animation: floatCard 6s ease-in-out infinite;
+}
+.card1{
+top: 0;
+right: 0;
+animation-delay: 0s;
+}
+.card2{
+bottom: 100px;
+left: 0;
+animation-delay: -2s;
+}
+.card3{
+top: 200px;
+right: 50px;
+animation-delay: -4s;
+}
+@keyframes floatCard {
+0%, 100% { transform: translateY(0); }
+50% { transform: translateY(-20px); }
+}
+.floating-card h3 {
+color: #00ffff;
+font-size: 1.2rem;
+margin-bottom: 0.5rem;
+}
+.floating-card p{
+color: #808080;
+font-size: 0.9rem;
+}
+.code-symbol {
+font-size: 3rem;
+color: #ff00ff;
+text-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+}
 

@@ -242,4 +242,58 @@ font-size: 3rem;
 color: #ff00ff;
 text-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
 }
+.about {
+padding: 6rem 8%;
+max-width: 1400px;
+margin: 0 auto;
+}
+.about-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 4rem;
+align-items: center;
+}
+.about-image-wrapper {
+position: relative;
+height: 500px;
+}
+.profile-card {
+background: rgba(10, 10, 10, 0.6);
+backdrop-filter: blur(20px);
+border: 1px solid rgba(0, 255, 255, 0.3);
+border-radius: 20px;
+padding: 3rem;
+text-align: center;
+box-shadow: 0 8px 32px rgba(0, 255, 255, 0.2);
+}
 
+.profile-img {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+background: linear-gradient(135deg, #00ffff, #ff00ff);
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto 2rem;
+font-size: 6rem;
+box-shadow: 0 0 40px rgba(0, 255, 255, 0.4);
+}
+.about-content h2 {
+font-size: 3rem;
+background: linear-gradient(135deg, #00ffff, #ff00ff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom: 2rem;
+}
+
+.about-content p {
+color: #b0b0b0;
+font-size: 1.1rem;
+margin-bottom: 1.5rem;
+line-height: 1.8;
+}
+.about-content .highlight-text {
+color: #00ffff;
+font-weight: 600;
+}

@@ -382,7 +382,19 @@ nav{
   box-shadow: 0 0 25px rgba(0, 255, 255, 0.25);
 }
 
+#github-cal > div:first-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
 
+#github-cal > div:last-of-type {
+  text-align: center;
+  margin-top: 1.5rem;
+}
 
 @media (max-width: 768px) {
   #experience {

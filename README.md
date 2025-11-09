@@ -1,6 +1,6 @@
 # HARSH SHARMA Portfolio
 
-A personal portfolio website showcasing my skills, projects, and experience as a Frontend Developer. Built with **HTML, CSS, and JavaScript**, with a modern, responsive design and interactive elements.
+A personal portfolio website showcasing my skills, projects, and experience as a Frontend Developer. Built with **HTML and **CSS, with a modern, responsive design and interactive elements.
 
 ---
 
@@ -20,7 +20,7 @@ A personal portfolio website showcasing my skills, projects, and experience as a
 ---
 
 ## 🛠️ Technologies
-- HTML5, CSS3 (Flexbox & Grid), JavaScript  
+- HTML5, CSS3 (Flexbox & Grid)
 - GitHub & Codeforces API integration  
 
 ---

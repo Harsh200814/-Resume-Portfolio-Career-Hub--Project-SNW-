@@ -19,7 +19,6 @@
     <ul class="nav-links">
       <li><a href="#home">HOME</a></li>
       <li><a href="#about">ABOUT ME</a></li>
-      <li><a href="#projects">PROJECTS</a></li>
       <li><a href="#skills">SKILLS</a></li>
       <li><a href="#contact">CONTACT</a></li>
     </ul>
@@ -161,27 +160,94 @@
         <p class="skill-level">Database Management</p>
       </div>
     </div>
-    <div id="experience">
-        <h2 class="section-heading">
-            <span class="tag">&lt;/&gt;</span>
-            Experience
-        </h2>
-        <div id="cf" class="ex-card">
-            <h3>Codeforces Live Status</h3>
-            <img src="https://codeforces-readme-stats.vercel.app/api/badge?username=harsh142008" alt="">
-            <img src="https://codeforces-readme-stats.vercel.app/api/card?username=harsh142008" alt="">
-        </div>
-        <div id="github-cal" class="ex-card">
-            <h3>Github Live Statistics</h3>
-            <div style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">
+
+<section id="experience">
+    <h2 class="section-heading">
+        <span class="tag">&lt;/&gt;</span>
+        Experience
+    </h2>
+
+    <div id="cf" class="ex-card">
+        <h3>Codeforces Live Status</h3>
+        <img src="https://codeforces-readme-stats.vercel.app/api/badge?username=harsh142008" alt="">
+        <img src="https://codeforces-readme-stats.vercel.app/api/card?username=harsh142008" alt="">
+    </div>
+
+    <div id="github-cal" class="ex-card">
+        <h3>Github Live Statistics</h3>
+        <div class="github-stats-container">
             <img src="https://github-readme-stats.vercel.app/api?username=harsh200814&show_icons=true&theme=radical" alt="Harsh's GitHub stats" width="400" />
             <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=harsh200814&layout=compact&theme=tokyonight" alt="Harsh's Top Languages" width="350" />
-            </div>
-
-            <div style="text-align: center; margin-top: 20px;">
+        </div>
+        <div class="contribution-streak">
             <img src="https://github-readme-streak-stats.herokuapp.com/?user=harsh200814&theme=dark" alt="Harsh's Contribution Streak" />
         </div>
-  </section>
+        <div class="contribution-graph">
+            <h3>My Contribution Graph</h3>
+            <img src="https://ghchart.rshah.org/harsh200814" alt="Harsh's Github chart" width="80%" />
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div id="contact-head">
+        <h2 class="section-heading">
+            <span class="tag">&lt;/&gt;</span>
+            Contact
+        </h2>
+        <h5>Feel free to reach out if you'd like to collaborate, discuss tech, or share some awesome ideas!</h5>
+    </div>
+
+    <div class="contact-card contact-info-card">
+        <h3>Get in Touch</h3>
+        <p>Whether you have a project in mind, a question about my work, or just want to say hi, I'd love to hear from you.</p>
+
+        <a href="mailto:harshsharma2k193912@gmail.com" class="contact-icon" target="_blank">
+            <img src="https://www.svgrepo.com/show/404657/email-notification-message-envelope-letter-chat.svg" alt="">
+            <div>
+                <p>Email</p>
+                <p>harshsharma2k193912@gmail.com</p>
+            </div>
+        </a>
+
+        <a class="contact-icon">
+            <img src="https://www.svgrepo.com/show/513317/location-pin.svg" alt="">
+            <div>
+                <p>Location</p>
+                <p>Pune</p>
+            </div>
+        </a>
+
+        <h3 style="text-align: center; margin-top: 2rem;">Connect With Me</h3>
+        <div id="buttons">
+            <a href="https://github.com/harsh200814" class="but1" target="_blank">
+                <div class="prof-img" id="github"></div>
+            </a>
+            <a href="https://www.linkedin.com/in/harsh142008" class="but1" target="_blank">
+                <div class="prof-img" id="linkedin"></div>
+            </a>
+        </div>
+    </div>
+
+    <div class="contact-card contact-form-card">
+        <form action="">
+            <h3>Send a Message</h3>
+            <label for="your-name">Your Name</label>
+            <input type="text" id="your-name" placeholder="Enter your name" required>
+
+            <label for="your-email">Your Email</label>
+            <input type="email" id="your-email" placeholder="Enter your email" required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Enter subject" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
 
 </body>
 </html>

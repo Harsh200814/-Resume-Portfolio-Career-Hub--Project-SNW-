@@ -5,7 +5,7 @@ A personal portfolio website showcasing my skills, projects, and experience as a
 ---
 
 ## 🌐 Live Demo
-[View Live](https://harshshport.netlify.app/)  
+[https://harshshport.netlify.app/]  
 
 ---
 

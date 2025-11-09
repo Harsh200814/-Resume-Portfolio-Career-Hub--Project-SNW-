@@ -750,9 +750,47 @@ nav {
     display: none;
   }
 }
+@media (max-width: 480px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  nav {
+    padding: 1rem 3%;
+  }
+}
+@media (max-width: 500px) {
+  #contact .contact-card {
+    width: 100%;
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+  .hero-buttons a {
+    padding: 0.7rem 1.2rem;
+  }
+}
 
 img {
   max-width: 100%;
   display: block;
 }
+#footer {
+  background: rgba(10, 10, 10, 0.85);
+  text-align: center;
+  padding: 20px 10px;
+  border-top: 1px solid rgba(0, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
+}
+
+#footer .footer-content p {
+  color: #ccc;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
 

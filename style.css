@@ -321,6 +321,83 @@ nav{
   background: linear-gradient(90deg, #00ffff, #ff00ff);
   transition: width 1s ease-in-out;
 }
+/* === EXPERIENCE SECTION === */
+#experience {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
+}
+
+/* Section heading */
+.section-heading {
+  font-size: 2.2rem;
+  color: #00ffff;
+  margin-bottom: 2.5rem;
+  text-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff;
+  display: inline-block;
+  position: relative;
+}
+
+.section-heading .tag {
+  color: #ff00ff;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+/* Cards container (optional grid if you add more later) */
+#experience .ex-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 255, 255, 0.15);
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 1000px;
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#experience .ex-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+}
+
+#experience .ex-card h3 {
+  font-size: 1.6rem;
+  color: #00ffff;
+  margin-bottom: 1rem;
+}
+
+#experience .ex-card img {
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.15);
+  transition: transform 0.3s ease;
+  max-width: 100%;
+  height: auto;
+}
+
+#experience .ex-card img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.25);
+}
+
+
+
+@media (max-width: 768px) {
+  #experience {
+    padding: 3rem 1.2rem;
+  }
+  .section-heading {
+    font-size: 1.8rem;
+  }
+  #experience .ex-card {
+    padding: 1.5rem;
+  }
+  #experience .ex-card h3 {
+    font-size: 1.3rem;
+  }
+}
 
 @media (max-width: 600px) {
   .skills-showcase {
